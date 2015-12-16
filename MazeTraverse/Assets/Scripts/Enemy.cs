@@ -58,6 +58,7 @@ public class Enemy : MonoBehaviour
 	{
 		state = AIBehavior.Roam;
 		FindPatrolPoint ();
+		player = null;
 	}
 
 	void SwitchChase(GameObject target)
